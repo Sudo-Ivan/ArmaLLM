@@ -1,0 +1,11 @@
+base_urls:
+  - "community.bistudio.com/wiki"
+  - "community.bistudio.com/wikidata"
+
+start_urls:
+  - "https://community.bistudio.com/wiki/Category:Arma_3:_Scripting_Commands"
+  - "https://community.bistudio.com/wiki/Category:Arma_Reforger/Modding/Guidelines/Scripting"
+  - "https://community.bistudio.com/wikidata/external-data/arma-reforger/EnfusionScriptAPIPublic/annotated.html"
+
+max_depth: 2
+rate_limit: 2  # seconds between requests
